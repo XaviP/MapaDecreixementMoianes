@@ -1,0 +1,604 @@
+var projectes = {
+  "type": "FeatureCollection",             
+  "features": [
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "El Fanal - Col·lectiu Ecologista del Moianès",
+            "sector":"Col·lectiu",
+            "descripcio":"Des de 1987 defensant la natura del Moianès."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.097710,41.812205]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Ateneu Popular La Polseguera",
+            "sector":"Col·lectiu",
+            "descripcio":"Espai físic i de coordinació de col·lectius del moviment popular."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.092144,41.811573]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "La Birbada",
+            "sector":"Col·lectiu",
+            "descripcio":"Assemblea no mixta que forma part de la Xarxa de Feministes Anticapitalistes dels Països Catalans i que articula la lluita feminista a la comarca."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.092100,41.811572]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Xarxa Popular d'Aliments",
+            "sector":"Col·lectiu",
+            "descripcio":"Assemblea que lluita per la sobirania alimentària. Recolecta d'excedents i lots d'aliments."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.092200,41.811574]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Arran",
+            "sector":"Col·lectiu",
+            "descripcio":"Organització juvenil de l'esquerra independentista. La seva tasca és apel·lar i movilitzar les joves."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.092143,41.811500]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Capgirem Moià",
+            "sector":"Col·lectiu",
+            "descripcio":"Candidatura municipal a Moià sota el paraigües de la CUP. L'ecologisme és un dels eixos i fronts actius de lluita. S'alineen amb l'ecosocialisme."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.092145,41.811600]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Cal Cases",
+            "sector":"Comunitat",
+            "descripcio":"Comunitat rural que viu en una cooperativa d'habitatge en cessió d'ús amb intenció de construir una nova cultura d'allò comú amb mirada ecofeminista."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.026269,41.834250]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Ecoteca Moianès",
+            "sector":"Agroecologia",
+            "descripcio":"Associació de consumidors/es de productes ecològics."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.123970,41.750310]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "CACIS El Forn de la Calç",
+            "sector":"Art",
+            "descripcio":"Centre d'art contemporani i sostenibilitat. Projectes d'art en relació amb la sostenibilitat"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [1.945278,41.779257]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "CEL L'Estany",
+            "sector":"Energia",
+            "descripcio":"Comunitat Energètica Local"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.113840,41.868540]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Dirk Moianès",
+            "sector":"Agroecologia",
+            "descripcio":"Programes i plans públics de facilitació de processos d'incorporació a l'activitat agrària / Productor oví eco."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.109515,41.765638]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Som pastura",
+            "sector":"Agroecologia",
+            "descripcio":"Cooperativa per gestionar el mini-escorxador."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.110856,41.804754]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Moianès Reutil",
+            "sector":"Col·lectiu",
+            "descripcio":"Grup de Instagram/Facebook per donar segona vida a coses."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.098300,41.809364]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Compartir vehicle",
+            "sector":"Energia",
+            "descripcio":"Grup de whatsapp per compartir viatges en cotxe."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.098200,41.809364]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "CGT Sallent",
+            "sector":"Sindicat",
+            "descripcio":"Sindicat llibertari de classe. El Moianès no té secció local i es recolça en la de Sallent."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.025800,41.834540]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "El Pererol",
+            "sector":"Agroecologia",
+            "descripcio":"Cultiu bolets / Projecte europeu biodiversitat."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.102230,41.728112]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "El Rebost del Moianès",
+            "sector":"Agroecologia",
+            "descripcio":"Associació de productors i consumidors agroecològics."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.097619,41.812506]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Comissió promotora consulta popular",
+            "sector":"Col·lectiu",
+            "descripcio":"Promoció de una consulta popular sobre el projecte escorxador/biogàs."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.098069,41.812638]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Moianès pel decreixement",
+            "sector":"Col·lectiu",
+            "descripcio":"Activisme per la transició ecosocial."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.092144,41.811573]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Associació dones d'Àfrica",
+            "sector":"Col·lectiu",
+            "descripcio":"Per aconseguir inclusió social i igualdat de drets."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.097619,41.812506]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Moianès Sostenible",
+            "sector":"Energia",
+            "descripcio":"Cooperativa per crear comunitats energètiques locals al Moianès."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.097619,41.812506]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Plataforma Riera Malrubí",
+            "sector":"Col·lectiu",
+            "descripcio":"Col·lectiu per preservar l'aigua a la riera de Malrubí."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.058641,41.843340]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Fundació La Plana",
+            "sector":"Comunitat",
+            "descripcio":"Comunitat. Cooperar amb qui treballi per assolir que els individus es facin millors i per tant millori també la societat."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.011064,41.848420]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "La Franquesa. Bernat",
+            "sector":"Agroecologia",
+            "descripcio":"Escola de tracció animal."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.101117,41.791482]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "El Xei. Pau",
+            "sector":"Agroecologia",
+            "descripcio":"Horta Ecològica."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.051530,41.782880]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "La Bardisa",
+            "sector":"Agroecologia",
+            "descripcio":"Ramaderes ecològiques"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.031530,41.881370]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "La Cabreria",
+            "sector":"Agroecologia",
+            "descripcio":"Làctics de cabra."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.021838,41.882283]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Saltamarges",
+            "sector":"Agroecologia",
+            "descripcio":"Grup de consum ecològic"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.112883,41.867843]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Quercus ADF",
+            "sector":"Altres",
+            "descripcio":"Associació de Defensa Forestal. L'Estany"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.078480,41.870330]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Moviment Júnior",
+            "sector":"Altres",
+            "descripcio":"Esplai de Santa Maria d'Oló."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.034960,41.875500]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "SEPC",
+            "sector":"Sindicat",
+            "descripcio":"Sindicat d'Estudiants dels PPCC al Moianès. Organització estudiantil de l'Esquerra Independentista."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.100320,41.806577]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "AIEG Amadeu Ollé",
+            "sector":"Altres",
+            "descripcio":"CAU de Moià. Agrupament escolta."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.098399,41.812207]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Avemodes",
+            "sector":"Col·lectiu",
+            "descripcio":"Associació de veins i veïnes de Moià Sud."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.100218,41.805238]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "La Datzira",
+            "sector":"Agroecologia",
+            "descripcio":"Horta ecològica i làctics de cabra."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.058424,41.785403]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "ADF Els Cingles",
+            "sector":"Altres",
+            "descripcio":"Associació de Defensa Forestal. Castellcir"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.102170,41.782000]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "La Ginebreda",
+            "sector":"Agroecologia",
+            "descripcio":"Oví ecològic"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.114310,41.762570]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Amaterra",
+            "sector":"Agroecologia",
+            "descripcio":"Empresa d'estudis i treballs tècnics sobre desenvolupament rural."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.112890,41.760720]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "L'Enric",
+            "sector":"Agroecologia",
+            "descripcio":"Horta ecològica."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.139630,41.757494]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Cooperativa El Brot",
+            "sector":"Agroecologia",
+            "descripcio":"Cooperativa de treball sense ànim de lucre amb l'objectiu de promoure el consum de productes produïts i elaborats sota criteris agroecològics."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.057150,41.724560]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Esplai Dracs",
+            "sector":"Altres",
+            "descripcio":"Esplai educatiu."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.117140,41.749100]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Just Serra ",
+            "sector":"Agroecologia",
+            "descripcio":"Ramader ecològic."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.001790,41.796400]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "AEIG Caldarius",
+            "sector":"Altres",
+            "descripcio":"Agrupament escolta Calders."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [1.992340,41.789330]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "ADENT",
+            "sector":"Altres",
+            "descripcio":"Agrupació en Defensa de l’Entorn Natural de les Tàpies."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [1.989470,41.787540]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "ADF Les Vinyes",
+            "sector":"Altres",
+            "descripcio":"Associació de Defensa Forestal. Calders"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [1.998570,41.768170]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Banc del Temps del Moianès",
+            "sector":"Col·lectiu",
+            "descripcio":"Intercanvi de bens i serveis amb moneda temps."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.097550,41.809660]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Ecoxarxa del Bages",
+            "sector":"Col·lectiu",
+            "descripcio":"Intercanvi de bens i serveis amb moneda social."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.102170,41.808280]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Cooperativa Agropecuària del Moianès",
+            "sector":"Agroecologia",
+            "descripcio":"Cooperativa de pagesos del Moianès"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.098458,41.808942]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Artesana llana",
+            "sector":"Artesania",
+            "descripcio":"Artesana de la llana."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.098202,41.811458]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Cosmètica natural",
+            "sector":"Artesania",
+            "descripcio":"Productora de cosmètica natural."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.159623,41.719572]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "La Encantada",
+            "sector":"Artesania",
+            "descripcio":"Cosmètica i remeis medicinals amb plantes locals."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.110810,41.748020]
+        }
+    }
+]}

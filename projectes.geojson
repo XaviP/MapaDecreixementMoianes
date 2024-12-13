@@ -340,30 +340,6 @@ var projectes = {
     {
         "type": "Feature",
         "properties": {
-            "name": "Quercus ADF",
-            "sector":"Altres",
-            "descripcio":"Associació de Defensa Forestal. L'Estany"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [2.078480,41.870330]
-        }
-    },
-    {
-        "type": "Feature",
-        "properties": {
-            "name": "Moviment Júnior",
-            "sector":"Altres",
-            "descripcio":"Esplai de Santa Maria d'Oló."
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [2.034960,41.875500]
-        }
-    },
-    {
-        "type": "Feature",
-        "properties": {
             "name": "SEPC",
             "sector":"Sindicat",
             "descripcio":"Sindicat d'Estudiants dels PPCC al Moianès. Organització estudiantil de l'Esquerra Independentista."
@@ -371,18 +347,6 @@ var projectes = {
         "geometry": {
             "type": "Point",
             "coordinates": [2.100320,41.806577]
-        }
-    },
-    {
-        "type": "Feature",
-        "properties": {
-            "name": "AIEG Amadeu Ollé",
-            "sector":"Altres",
-            "descripcio":"CAU de Moià. Agrupament escolta."
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [2.098399,41.812207]
         }
     },
     {
@@ -412,18 +376,6 @@ var projectes = {
     {
         "type": "Feature",
         "properties": {
-            "name": "ADF Els Cingles",
-            "sector":"Altres",
-            "descripcio":"Associació de Defensa Forestal. Castellcir"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [2.102170,41.782000]
-        }
-    },
-    {
-        "type": "Feature",
-        "properties": {
             "name": "La Ginebreda",
             "sector":"Agroecologia",
             "descripcio":"Oví ecològic"
@@ -448,7 +400,7 @@ var projectes = {
     {
         "type": "Feature",
         "properties": {
-            "name": "L'Enric",
+            "name": "Horta 3 Sols",
             "sector":"Agroecologia",
             "descripcio":"Horta ecològica."
         },
@@ -460,25 +412,13 @@ var projectes = {
     {
         "type": "Feature",
         "properties": {
-            "name": "Cooperativa El Brot",
+            "name": "El Brot Agrologic",
             "sector":"Agroecologia",
             "descripcio":"Cooperativa de treball sense ànim de lucre amb l'objectiu de promoure el consum de productes produïts i elaborats sota criteris agroecològics."
         },
         "geometry": {
             "type": "Point",
             "coordinates": [2.057150,41.724560]
-        }
-    },
-    {
-        "type": "Feature",
-        "properties": {
-            "name": "Esplai Dracs",
-            "sector":"Altres",
-            "descripcio":"Esplai educatiu."
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [2.117140,41.749100]
         }
     },
     {
@@ -496,37 +436,13 @@ var projectes = {
     {
         "type": "Feature",
         "properties": {
-            "name": "AEIG Caldarius",
-            "sector":"Altres",
-            "descripcio":"Agrupament escolta Calders."
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [1.992340,41.789330]
-        }
-    },
-    {
-        "type": "Feature",
-        "properties": {
             "name": "ADENT",
-            "sector":"Altres",
+            "sector":"Col·lectiu",
             "descripcio":"Agrupació en Defensa de l’Entorn Natural de les Tàpies."
         },
         "geometry": {
             "type": "Point",
             "coordinates": [1.989470,41.787540]
-        }
-    },
-    {
-        "type": "Feature",
-        "properties": {
-            "name": "ADF Les Vinyes",
-            "sector":"Altres",
-            "descripcio":"Associació de Defensa Forestal. Calders"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [1.998570,41.768170]
         }
     },
     {
@@ -599,6 +515,18 @@ var projectes = {
         "geometry": {
             "type": "Point",
             "coordinates": [2.110810,41.748020]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Les Apicultores",
+            "sector":"Agroecologia",
+            "descripcio":"Apicultura natural i respectuosa amb les abelles i el medi."
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.229970,41.720293]
         }
     }
 ]}
